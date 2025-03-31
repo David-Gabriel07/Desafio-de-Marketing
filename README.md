@@ -1,67 +1,49 @@
 # Desafío de Marketing
 
-Este proyecto consiste en desarrollar una aplicación web utilizando Streamlit, diseñada para optimizar estrategias de marketing a partir del análisis de datos. La aplicación permite visualizar tendencias, explorar métricas clave y facilitar la toma de decisiones basadas en datos.
+Este proyecto tiene como objetivo analizar y procesar datos para extraer insights relevantes en el ámbito del marketing. La información se obtiene a partir de diferentes notebooks que se enfocan en el preprocesamiento de datos y el análisis exploratorio (EDA).
 
-## Vista General
+## Contenido
 
-La aplicación, accesible en [UpgradeData](https://upgradedata1.streamlit.app/), ofrece:
-- **Visualización de Datos:** Representación gráfica de indicadores estratégicos.
-- **Análisis Interactivo:** Herramientas para explorar segmentos, campañas y resultados.
-- **Facilidad de Uso:** Interfaz intuitiva para turistas y expertos en marketing digital.
+- [Objetivo](#objetivo)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Procesamiento de Datos](#procesamiento-de-datos)
+- [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
+- [Conclusiones](#conclusiones)
 
-## Objetivos del Proyecto
+## Objetivo
 
-- **Integración de Datos:** Consolidar información de múltiples fuentes para un análisis coherente.
-- **Optimización de Estrategias:** Identificar oportunidades de mejora en campañas de marketing.
-- **Automatización:** Procesos automáticos de actualización y limpieza de datos.
-- **Visual Insights:** Dashboard interactivo para facilitar la toma de decisiones.
-
-## Tecnologías Utilizadas
-
-- [Streamlit](https://streamlit.io/): Framework para aplicaciones web de datos.
-- Python: Lenguaje principal para desarrollo y análisis de datos.
-- Librerías populares: Pandas, Matplotlib, Plotly, entre otras.
+El desafío consiste en analizar una serie de datos relacionados con marketing para identificar tendencias, patrones y oportunidades que permitan optimizar estrategias y campañas.
 
 ## Estructura del Proyecto
 
+El repositorio se organiza de la siguiente manera:
+
 ```
 /Desafio-de-Marketing
-├── README.md           # Documentación general del proyecto
-├── app.py              # Archivo principal de la aplicación Streamlit
-├── data/               # Directorio con archivos de datos y recursos
-├── requirements.txt    # Dependencias y librerías requeridas
-└── docs/               # Documentación adicional y recursos gráficos
+├── notebooks
+│   ├── Preprocesamiento-de-datos.ipynb
+│   └── eda.ipynb
+└── README.md
 ```
 
-## Instalación y Ejecución
+## Procesamiento de Datos
 
-1. Clona el repositorio:
-    ```
-    git clone https://github.com/tu-usuario/Desafio-de-Marketing.git
-    ```
-2. Navega al directorio del proyecto:
-    ```
-    cd Desafio-de-Marketing
-    ```
-3. Instala las dependencias:
-    ```
-    pip install -r requirements.txt
-    ```
-4. Ejecuta la aplicación:
-    ```
-    streamlit run app.py
-    ```
+El notebook `Preprocesamiento-de-datos.ipynb` se encarga de:
 
-## Contribución
+- Importar los datos desde fuentes relevantes.
+- Limpiar y transformar los datos, manejando valores nulos y errores.
+- Preparar conjuntos de datos para el análisis posterior.
+- Generar nuevos indicadores a partir de las variables originales.
 
-Se invita a la comunidad a aportar mejoras y nuevos features. Para contribuir:
-- Realiza un fork del repositorio.
-- Crea tus cambios en una rama (`feature/nueva-funcionalidad`).
-- Envía un Pull Request describiendo tu aporte.
+## Análisis Exploratorio de Datos (EDA)
 
-## Soporte y Contacto
+El notebook `eda.ipynb` se centra en:
 
-Para dudas o reportes de errores, por favor abre un issue en GitHub o contacta al equipo de desarrollo a través de [correo@tudominio.com](mailto:correo@tudominio.com).
+- Visualización de distribuciones y relaciones entre variables clave.
+- Análisis de tendencias y patrones en los datos.
+- Evaluación de correlaciones y segmentaciones en la información.
+- Generación de gráficos y reportes visuales que permiten interpretar resultados.
 
-¡Esperamos que este proyecto impulse nuevas estrategias y fomente el uso inteligente de los datos en marketing!
+## Conclusiones
 
+A partir del preprocesamiento y análisis exploratorio, se pueden derivar insights clave sobre las estrategias de marketing. Se recomienda seguir perfeccionando los modelos y explorar nuevas variables que puedan aportar mayor precisión en las predicciones y segmentaciones.
