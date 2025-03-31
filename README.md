@@ -1,4 +1,5 @@
-# Desafío de Marketing ![Upgrade Hub logo](https://github.com/David-Gabriel07/Desafio-de-Marketing/blob/main/img/upgrade-logo.jpg)
+# ![Upgrade Hub logo](https://github.com/David-Gabriel07/Desafio-de-Marketing/blob/main/img/upgrade-logo.jpg)
+# Desafío de Marketing 
 
 Hola, soy David Frigerio  y este proyecto es parte de un bootcamp en ciencia de datos & IA que estoy realizando con UpGradeHub y tiene como objetivo analizar y procesar datos para extraer insights relevantes en el ámbito del marketing. La información se obtiene a partir de diferentes notebooks que se enfocan en el preprocesamiento de datos y el análisis exploratorio (EDA).
 
