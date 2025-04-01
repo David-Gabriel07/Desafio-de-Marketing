@@ -10,7 +10,7 @@ Con resumen del trabajo que se ha hecho, he elaborado este informe en dónde pre
 Importamos las librerias necesarias y el dataset
 - Revisamos la descripción, los nulos, los repetidos
 - Eliminamos los duplicados, con un total de 27 registros, y para los datos raros hice varias cosas:
--- En algunos registros se habían invertido los datos de channel y type, y como eran pocos lo hice a mano
+    En algunos registros se habían invertido los datos de channel y type, y como eran pocos lo hice a mano
 -- En otros casos, por el ejemplo el channel "referal" estaba mal escrito con una "r"  y he modificado el registro para que tenga dos "r"
 -- Había algunas fechas de Febrero 30 que no existe, y la cambie a Febrero 29 ya que fue año bisiesto ese año 2024
 - Para los nulos hice varias cosas:
