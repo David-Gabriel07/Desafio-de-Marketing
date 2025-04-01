@@ -1,9 +1,9 @@
 # Informe
-Con resumen del trabajo que se ha hecho, he elaborado este informe en dónde presentaré, entre otras cosas:
+A modo de resumen del trabajo que se ha hecho, he elaborado este informe en dónde presentaré, entre otras cosas:
 - El trabajo de tratamiento y limpieza de datos realizado
 - La realización del Análisis exploratorio
 - Las respuestas a las 7 preguntas realizadas
-- Gráficos que soporten las respuestas a las preguntas y recomendaciones
+- Gráficos que soporten las respuestas a las preguntas
 
 ## 1. Descripción del trabajo realizado
 
@@ -15,7 +15,7 @@ Importamos las librerias necesarias y el dataset
   - Había algunas fechas de Febrero 30 que no existe, y la cambie a Febrero 29 ya que fue año bisiesto ese año 2024
 - Para los nulos hice varias cosas:
   - Para practicar intenté rellenar los nulos del budget con el promedio del budget para otros registros para el mismo type y channel
-  - El resto de nulos los eliminé, eran unos 15 registros ya que representaban menos del 1% de los datos 
+  - El resto de nulos los eliminé, eran unos 15 registros y representaban menos del 1% de los datos 
 - Hice el casting necesario para fechas, y floats
 - Traté los outliers, sobre todo de budget, conversion rate, ROI, y fechas superpuestas y futuras, apenas 3 o 4 registros
 - Calculé métricas derivadas como el beneficio neto, el cost per conversion, la clasificacion de campañas en categorias de rendimiento, entre otros, campos estacionales derivados de las fechas como mes, dia, año y cuatrimestre, entre otros.
@@ -37,11 +37,11 @@ Importamos las librerias necesarias y el dataset
 - **Gráfico 3:**  
     _![alt text](image-3.png)_
 
-Sin embargo, cuando intento de buscar otra correlación, no se muy claramente, salvo que para revenue y ROI hay una relación leve positiva, y para el cost per conversion, una relación leve negativa, como se puede observar en el siguiente mapa de calor:
+Sin embargo, cuando intento de buscar otra correlación, no se muy claramente, salvo que para revenue y budget hay una relación leve positiva, y para el cost per conversion, una relación leve negativa, como se puede observar en el siguiente mapa de calor:
    _![alt text](image-2.png)_
 
 ### ¿Hay diferencias significativas en la tasa de conversión entre audiencias B2B y B2C?
-- **Respuesta:** No se obsevan diferencias significativas, B2C una tasa de conversion promedio un poco menor, pero no se ven grandes diferencias
+- **Respuesta:** No se obsevan diferencias significativas, B2C tiene una tasa de conversion promedio un poco menor, pero no se ven grandes diferencias
  _![alt text](image-4.png)_
 
 ### ¿Qué campaña tiene el mayor beneficio neto (net_profit)? ¿Qué características la hacen exitosa?
