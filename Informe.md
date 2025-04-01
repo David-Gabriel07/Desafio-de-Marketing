@@ -10,12 +10,12 @@ Con resumen del trabajo que se ha hecho, he elaborado este informe en dónde pre
 Importamos las librerias necesarias y el dataset
 - Revisamos la descripción, los nulos, los repetidos
 - Eliminamos los duplicados, con un total de 27 registros, y para los datos raros hice varias cosas:
-    En algunos registros se habían invertido los datos de channel y type, y como eran pocos lo hice a mano
--- En otros casos, por el ejemplo el channel "referal" estaba mal escrito con una "r"  y he modificado el registro para que tenga dos "r"
--- Había algunas fechas de Febrero 30 que no existe, y la cambie a Febrero 29 ya que fue año bisiesto ese año 2024
+  - En algunos registros se habían invertido los datos de channel y type, y como eran pocos lo hice a mano
+  - En otros casos, por el ejemplo el channel "referal" estaba mal escrito con una "r"  y he modificado el registro para que tenga dos "r"
+  - Había algunas fechas de Febrero 30 que no existe, y la cambie a Febrero 29 ya que fue año bisiesto ese año 2024
 - Para los nulos hice varias cosas:
--- Para practicar intenté rellenar los nulos del budget con el promedio del budget para otros registros para el mismo type y channel
--- El resto de nulos los eliminé, eran unos 15 registros ya que representaban menos del 15 de los datos 
+  - Para practicar intenté rellenar los nulos del budget con el promedio del budget para otros registros para el mismo type y channel
+  - El resto de nulos los eliminé, eran unos 15 registros ya que representaban menos del 15 de los datos 
 - Hice el casting necesario para fechas, y floats
 - Traté los outliers, sobre todo de budget, conversion rate, ROI, y fechas superpuestas y futuras, apenas 3 o 4 registros
 - Calculé métricas derivadas como el beneficio neto, el cost per conversion, la clasificacion de campañas en categorias de rendimiento, entre otros, campos estacionales derivados de las fechas como mes, dia, año y cuatrimestre, entre otros.
