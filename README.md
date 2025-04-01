@@ -45,6 +45,4 @@ El notebook `eda.ipynb` se centra en:
 - Evaluación de correlaciones y segmentaciones en la información.
 - Generación de gráficos y reportes visuales que permiten interpretar resultados.
 
-## Conclusiones
 
-A partir del preprocesamiento y análisis exploratorio, se pueden derivar insights clave sobre las estrategias de marketing. Se recomienda seguir perfeccionando los modelos y explorar nuevas variables que puedan aportar mayor precisión en las predicciones y segmentaciones.

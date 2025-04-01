@@ -18,7 +18,7 @@ Importamos las librerias necesarias y el dataset
   - El resto de nulos los eliminé, eran unos 15 registros y representaban menos del 1% de los datos 
 - Hice el casting necesario para fechas, y floats
 - Traté los outliers, sobre todo de budget, conversion rate, ROI, y fechas superpuestas y futuras, apenas 3 o 4 registros
-- Calculé métricas derivadas como el beneficio neto, el cost per conversion, la clasificacion de campañas en categorias de rendimiento, entre otros, campos estacionales derivados de las fechas como mes, dia, año y cuatrimestre, entre otros.
+- Calculé métricas derivadas como el beneficio neto, el cost per conversion, la clasificacion de campañas en categorias de rendimiento, campos estacionales derivados de las fechas como mes, dia, año y cuatrimestre, entre otros.
 
 ## 2. Respuestas a las 7 Preguntas
 
