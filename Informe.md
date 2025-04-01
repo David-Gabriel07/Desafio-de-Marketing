@@ -25,39 +25,53 @@ Importamos las librerias necesarias y el dataset
 ### ¿Qué canal de marketing se utiliza con mayor frecuencia y cuál genera mejor ROI?
 - **Respuesta:** Podemos ver que el canal que se utiliza con más frecuencia es "promotion" y el que tiene el mejor ROI es "Referral", que es a su vez el segundo más utilizado
 - **Gráfico 1:**  
-    _![alt text](image.png)_
+    _![canal mayor frecuencia](image.png)_
 
 ### ¿Qué tipo de campaña genera más ingresos en promedio y cuál tiene mejor conversión?
-- **Respuesta:**
+- **Respuesta:** Podemos ver que las campañas de social media generan los mayores ingresos promedio y los webinars tienen la tasa de conversion mas alta
 - **Gráfico 2:**  
-    _[Insertar gráfico aquí]_
+    _![tipo campaña mayor ingresos promedio](image-1.png)_
 
 ### ¿Cómo se distribuye el ROI entre las campañas? ¿Qué factores están asociados con un ROI alto?
-- **Respuesta:**
+- **Respuesta:** Con respecto a los ingresos promedios y el ROI, podemos ver, que salvo para el canal webinar, para el resto vemos que hay una correlación directa entre ingresos promedio y tasa de conversión
 - **Gráfico 3:**  
-    _[Insertar gráfico aquí]_
+    _![alt text](image-3.png)_
+
+Sin embargo, cuando intento de buscar otra correlación, no se muy claramente, salvo que para revenue y ROI hay una relación leve positiva, y para el cost per conversion, una relación leve negativa, como se puede observar en el siguiente mapa de calor:
+   _![alt text](image-2.png)_
 
 ### ¿Hay diferencias significativas en la tasa de conversión entre audiencias B2B y B2C?
-- **Respuesta:**
-- _[Opcional: Agregar gráfico si es necesario]_
+- **Respuesta:** No se obsevan diferencias significativas, B2C una tasa de conversion promedio un poco menor, pero no se ven grandes diferencias
+- _![alt text](image-4.png)_
 
 ### ¿Qué campaña tiene el mayor beneficio neto (net_profit)? ¿Qué características la hacen exitosa?
-- **Respuesta:**
+- **Respuesta:** La campaña "Advanced systematic complexity". Lo que hace la campaña exitosa es un ROI alto, cost per conversion bajo y budget bajo.
 - _[Opcional: Agregar gráfico si es necesario]_
 
 ### ¿Existe correlación entre el presupuesto (budget) y los ingresos (revenue)?
-- **Respuesta:**
-- _[Opcional: Agregar gráfico si es necesario]_
+- **Respuesta:** Pareciera que no
+- _![alt text](image-5.png)_
 
 ### ¿Qué campañas tienen un ROI mayor a 0.5 y ingresos encima de 500,000?
 - **Respuesta:**
-- _[Opcional: Agregar gráfico si es necesario]_
+Campañas filtradas:
+                                    campaign_name   roi    revenue  \
+1              De-engineered analyzing task-force  0.74  516609.10   
+5          Upgradable transitional data-warehouse  0.59  558302.11   
+9                    Intuitive responsive support  0.81  563280.30   
+12                  Networked even-keeled toolset  0.58  680416.90   
+21    Self-enabling human-resource infrastructure  0.69  974038.96   
+...                                           ...   ...        ...   
+993                Intuitive 4thgeneration access  0.78  702414.14   
+995          Switchable solution-oriented success  0.96  601987.53   
+996     Multi-channeled 5thgeneration methodology  0.90  537274.20   
+998                   Operative tangible firmware  0.80  613448.30   
+1000       Upgradable transitional data-warehouse  0.59  558302.11   
+
 
 ### ¿Existen patrones estacionales o temporales en el rendimiento de las campañas?
-- **Respuesta:**
-- _[Opcional: Agregar gráfico si es necesario]_
+- **Respuesta:** Harian falta datos de mas años pero el ROI parece caer de cara al verano y volver a aumentar hacia fin de año
+- _![alt text](image-6.png)_
 
 ---
 
-## 3. Notas Adicionales
-- Anota aquí cualquier comentario o explicación adicional sobre el análisis y los datos.
