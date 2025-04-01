@@ -30,7 +30,7 @@ Importamos las librerias necesarias y el dataset
 ### ¿Qué tipo de campaña genera más ingresos en promedio y cuál tiene mejor conversión?
 - **Respuesta:** Podemos ver que las campañas de social media generan los mayores ingresos promedio y los webinars tienen la tasa de conversion mas alta
 - **Gráfico 2:**  
-    _![tipo campaña mayor ingresos promedio](image-1.png)_
+    _![tipo campaña mayor ingresos promedio](C:\Users\david.frigerio_softo\Documents\GitHub\Desafio-de-Marketing\img\image-1.png)_
 
 ### ¿Cómo se distribuye el ROI entre las campañas? ¿Qué factores están asociados con un ROI alto?
 - **Respuesta:** Con respecto a los ingresos promedios y el ROI, podemos ver, que salvo para el canal webinar, para el resto vemos que hay una correlación directa entre ingresos promedio y tasa de conversión
