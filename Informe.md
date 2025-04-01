@@ -42,15 +42,15 @@ Sin embargo, cuando intento de buscar otra correlación, no se muy claramente, s
 
 ### ¿Hay diferencias significativas en la tasa de conversión entre audiencias B2B y B2C?
 - **Respuesta:** No se obsevan diferencias significativas, B2C una tasa de conversion promedio un poco menor, pero no se ven grandes diferencias
-- _![alt text](image-4.png)_
+ _![alt text](image-4.png)_
 
 ### ¿Qué campaña tiene el mayor beneficio neto (net_profit)? ¿Qué características la hacen exitosa?
 - **Respuesta:** La campaña "Advanced systematic complexity". Lo que hace la campaña exitosa es un ROI alto, cost per conversion bajo y budget bajo.
-- _[Opcional: Agregar gráfico si es necesario]_
+
 
 ### ¿Existe correlación entre el presupuesto (budget) y los ingresos (revenue)?
 - **Respuesta:** Pareciera que no
-- _![alt text](image-5.png)_
+ _![alt text](image-5.png)_
 
 ### ¿Qué campañas tienen un ROI mayor a 0.5 y ingresos encima de 500,000?
 - **Respuesta:**
@@ -71,7 +71,7 @@ Campañas filtradas:
 
 ### ¿Existen patrones estacionales o temporales en el rendimiento de las campañas?
 - **Respuesta:** Harian falta datos de mas años pero el ROI parece caer de cara al verano y volver a aumentar hacia fin de año
-- _![alt text](image-6.png)_
+ _![alt text](image-6.png)_
 
 ---
 
