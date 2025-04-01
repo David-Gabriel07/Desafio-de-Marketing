@@ -15,7 +15,7 @@ Importamos las librerias necesarias y el dataset
   - Había algunas fechas de Febrero 30 que no existe, y la cambie a Febrero 29 ya que fue año bisiesto ese año 2024
 - Para los nulos hice varias cosas:
   - Para practicar intenté rellenar los nulos del budget con el promedio del budget para otros registros para el mismo type y channel
-  - El resto de nulos los eliminé, eran unos 15 registros ya que representaban menos del 15 de los datos 
+  - El resto de nulos los eliminé, eran unos 15 registros ya que representaban menos del 1% de los datos 
 - Hice el casting necesario para fechas, y floats
 - Traté los outliers, sobre todo de budget, conversion rate, ROI, y fechas superpuestas y futuras, apenas 3 o 4 registros
 - Calculé métricas derivadas como el beneficio neto, el cost per conversion, la clasificacion de campañas en categorias de rendimiento, entre otros, campos estacionales derivados de las fechas como mes, dia, año y cuatrimestre, entre otros.
@@ -23,9 +23,9 @@ Importamos las librerias necesarias y el dataset
 ## 2. Respuestas a las 7 Preguntas
 
 ### ¿Qué canal de marketing se utiliza con mayor frecuencia y cuál genera mejor ROI?
-- **Respuesta:**
+- **Respuesta:** Podemos ver que el canal que se utiliza con más frecuencia es "promotion" y el que tiene el mejor ROI es "Referral", que es a su vez el segundo más utilizado
 - **Gráfico 1:**  
-    _[Insertar gráfico aquí]_
+    _![alt text](image.png)_
 
 ### ¿Qué tipo de campaña genera más ingresos en promedio y cuál tiene mejor conversión?
 - **Respuesta:**
